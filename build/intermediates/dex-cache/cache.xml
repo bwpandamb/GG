@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/ext.charles.ma/.android/build-cache/cd39d8dce3a24a64f3ea104013ccc0dc96234982/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="8a372c4191f80489770a231f7be4820b204b886a">
+        <dex dex="/Users/ext.charles.ma/Desktop/kotlinPro/JavaToKotlin/app/build/intermediates/pre-dexed/debug/classes_7031d956a2b46016032987b75e744d46ac5348cf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ext.charles.ma/.android/build-cache/1aa5460cca702357d302158877cf1b9933aec550/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="19f281a785ca0eb5f6799fc7bf7ca199a9ca1e8b">
+        <dex dex="/Users/ext.charles.ma/Desktop/kotlinPro/JavaToKotlin/app/build/intermediates/pre-dexed/debug/classes_bf57a9865f3003612b4d2cd285a181877b11c201.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ext.charles.ma/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-annotations/8.5.1/bb67dad90bab7cd77a8f7f1b8442b47e3a2326bc/butterknife-annotations-8.5.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="bb67dad90bab7cd77a8f7f1b8442b47e3a2326bc">
+        <dex dex="/Users/ext.charles.ma/Desktop/kotlinPro/JavaToKotlin/app/build/intermediates/pre-dexed/debug/butterknife-annotations-8.5.1_92b2b04cc6e6085ceb7f633ef7ab22914b2a3573.jar" />
+    </item>
+
+</items>
