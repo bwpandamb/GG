@@ -18,11 +18,19 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity
-            android:name=".activity.SettingsActivity"
-            android:label="@string/title_activity_settings">
+        <activity android:name=".activity.fragmnet_train.FragmentTrainActivity">
         </activity>
-        <activity android:name=".activity.ActivityGetSampFragment">
+        <activity android:name=".activity.fragmnet_train.FramgentReplaceActivity">
+        </activity>
+        <activity android:name=".activity.fragmnet_train.FragmentAddShowHideActivity">
+        </activity>
+        <activity android:name=".activity.fragmentTabHost.Activity4FragmentTabHost">
+        </activity>
+        <activity android:name=".activity.tablayout.TabLayoutTrainActivity">
+        </activity>
+        <activity android:name=".activity.tablayout.TabLayoutDoubleActivity">
+        </activity>
+        <activity android:name=".activity.some_bottom_bar.BottomNavigationBarActivity">
         </activity>
     </application>
 

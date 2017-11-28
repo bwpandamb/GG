@@ -5,7 +5,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.achar.javatokotlin.activity.ActivityGetSampFragment">
+    android:orientation="vertical"
+    tools:context="com.example.achar.javatokotlin.activity.fragmnet_train.FragmentTrainActivity">
+
+    <include
+        android:id="@+id/item_1"
+        layout="@layout/item_layout"/>
+
+    <include
+        android:id="@+id/item_2"
+        layout="@layout/item_layout"/>
 
 
     <FrameLayout

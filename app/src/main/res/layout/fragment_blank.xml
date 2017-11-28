@@ -6,9 +6,18 @@
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
-        android:gravity="center"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment"/>
-
+        android:gravity="center"
+        android:text="我是一个快捷创建的fragment\n
+        创建方式如下：\n
+        直接使用右键new -> fragment -> 选择fragment(Blank)\n
+        填装的方式:\n
+        getSupportFragmentManager()
+      .beginTransaction()
+      .replace(R.id.fragment_content, new BlankFragment())
+      .commit();\n
+      在activity中调用这个代码就可以，\n
+      R.id.fragment_content是装载这个fragment的容器
+"/>
 </FrameLayout>
