@@ -8,9 +8,11 @@ import android.support.v7.widget.CardView;
 import android.view.View;
 import android.widget.TextView;
 
-import com.example.achar.javatokotlin.activity.some_bottom_bar.BottomNavigationBarActivity;
+import com.example.achar.javatokotlin.activity.appbar.CoordinatorLayoutSelectActivity;
 import com.example.achar.javatokotlin.activity.fragmnet_train.FragmentTrainActivity;
+import com.example.achar.javatokotlin.activity.some_bottom_bar.BottomNavigationBarActivity;
 import com.example.achar.javatokotlin.activity.tablayout.TabLayoutDoubleActivity;
+import com.example.achar.javatokotlin.activity.textinput.TextInputActivity;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -41,6 +43,18 @@ public class MBMainSelectActivity extends AppCompatActivity {
     CardView cardviewBuju;
     @BindView(R.id.jianjie_4)
     TextView jianjie4;
+    @BindView(R.id.textView_appbar)
+    TextView textViewAppbar;
+    @BindView(R.id.cardview_appbar)
+    CardView cardviewAppbar;
+    @BindView(R.id.jianjie_5)
+    TextView jianjie5;
+    @BindView(R.id.textView_textinput)
+    TextView textViewTextinput;
+    @BindView(R.id.cardview_textinput)
+    CardView cardviewTextinput;
+    @BindView(R.id.jianjie_6)
+    TextView jianjie6;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -51,9 +65,20 @@ public class MBMainSelectActivity extends AppCompatActivity {
     }
 
 
-    @OnClick({R.id.cardview_buju,R.id.jianjie_4,R.id.cardview_tablayout, R.id.cardview_fg, R.id.jianjie_1, R.id.jianjie_3, R.id.cardview_tablayout_2})
+    @OnClick({R.id.cardview_textinput,R.id.cardview_appbar, R.id.jianjie_5, R.id.cardview_buju, R.id.jianjie_4, R.id.cardview_tablayout, R.id
+            .cardview_fg, R.id.jianjie_1, R.id
+            .jianjie_3, R.id.cardview_tablayout_2})
     public void onViewClicked(View view) {
         switch (view.getId()) {
+            case R.id.cardview_appbar:
+                startActivity(new Intent(MBMainSelectActivity.this, CoordinatorLayoutSelectActivity.class));
+                break;
+            case R.id.cardview_textinput:
+                startActivity(new Intent(MBMainSelectActivity.this, TextInputActivity.class));
+                break;
+            case R.id.jianjie_5:
+                break;
+
             case R.id.cardview_tablayout:
                 startActivity(new Intent(MBMainSelectActivity.this, MainActivity.class));
                 break;

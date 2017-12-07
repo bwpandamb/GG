@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <declare-styleable name="mbRadarView">
+        <attr name="linecolor" format="color"/>
+        <attr name="contentColor" format="color"/>
+        <attr name="side" format="dimension"/>
+        <attr name="distance" format="dimension"/>
+        <attr name="number" format="integer"/>
+
+    </declare-styleable>
+
+</resources>

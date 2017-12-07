@@ -4,11 +4,11 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/xiaomi"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:theme="@style/Base.AppTheme">
         <activity android:name=".MainActivity">
         </activity>
         <activity android:name=".MBMainSelectActivity">
@@ -31,6 +31,16 @@
         <activity android:name=".activity.tablayout.TabLayoutDoubleActivity">
         </activity>
         <activity android:name=".activity.some_bottom_bar.BottomNavigationBarActivity">
+        </activity>
+        <activity
+            android:name=".activity.appbar.AppBarActivity"
+            android:theme="@style/AppTheme2">
+        </activity>
+        <activity android:name=".activity.appbar.AppBarActivity2">
+        </activity>
+        <activity android:name=".activity.appbar.CoordinatorLayoutSelectActivity">
+        </activity>
+        <activity android:name=".activity.textinput.TextInputActivity">
         </activity>
     </application>
 

@@ -9,7 +9,7 @@ import android.widget.FrameLayout;
 import android.widget.TextView;
 
 import com.example.achar.javatokotlin.R;
-import com.example.achar.javatokotlin.activity.tablayout.TabLayoutFragment;
+import com.example.achar.javatokotlin.fragment.BlankFragment;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -60,7 +60,7 @@ public class FragmentTrainActivity extends AppCompatActivity {
 
         getSupportFragmentManager()
                 .beginTransaction()
-                .replace(R.id.fragment_content, new TabLayoutFragment())
+                .replace(R.id.fragment_content, new BlankFragment())
                 .commit();
 
 

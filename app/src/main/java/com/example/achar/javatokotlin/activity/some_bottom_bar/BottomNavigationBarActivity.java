@@ -23,7 +23,9 @@ import com.example.achar.javatokotlin.activity.tablayout.TabLayoutFragment;
  * 其余只有图案
  * 解决方案就是BottomNavigationViewHelper这个类，使用了反射来实现
  *
- * 使用这个的缺陷在于，貌似无法定制tab
+ * 使用这个的缺陷在于，貌似无法定制item，只能使用官方提供的menu布局来填充
+ * 如果想获取对应item的view，我现在也是做不到的，这就决定了我无法订制很多东西
+ * 因此，这个控件不推荐使用
  *
  */
 public class BottomNavigationBarActivity extends AppCompatActivity {
@@ -67,6 +69,7 @@ public class BottomNavigationBarActivity extends AppCompatActivity {
                 return true;
             }
         });
+
     }
 
 
