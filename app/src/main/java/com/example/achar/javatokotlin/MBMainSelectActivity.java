@@ -9,10 +9,16 @@ import android.view.View;
 import android.widget.TextView;
 
 import com.example.achar.javatokotlin.activity.appbar.CoordinatorLayoutSelectActivity;
+import com.example.achar.javatokotlin.activity.bravh.BravhActivity;
+import com.example.achar.javatokotlin.activity.change_language_in_app.ChangeLanguageActivity;
+import com.example.achar.javatokotlin.activity.dialog_use.ActivityForUseDialog;
 import com.example.achar.javatokotlin.activity.fragmnet_train.FragmentTrainActivity;
+import com.example.achar.javatokotlin.activity.listview.ListViewActivity;
+import com.example.achar.javatokotlin.activity.rili.RiLiActivity;
 import com.example.achar.javatokotlin.activity.some_bottom_bar.BottomNavigationBarActivity;
 import com.example.achar.javatokotlin.activity.tablayout.TabLayoutDoubleActivity;
 import com.example.achar.javatokotlin.activity.textinput.TextInputActivity;
+import com.example.achar.javatokotlin.activity.viewpager.DiffViewPagerActivity;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -55,6 +61,42 @@ public class MBMainSelectActivity extends AppCompatActivity {
     CardView cardviewTextinput;
     @BindView(R.id.jianjie_6)
     TextView jianjie6;
+    @BindView(R.id.cardview_dialog)
+    CardView cardviewDialog;
+    @BindView(R.id.jianjie_7)
+    TextView jianjie7;
+    @BindView(R.id.cardview_language)
+    CardView cardviewLanguage;
+    @BindView(R.id.jianjie_8)
+    TextView jianjie8;
+    @BindView(R.id.textView_dialog)
+    TextView textViewDialog;
+    @BindView(R.id.textView_language)
+    TextView textViewLanguage;
+    @BindView(R.id.textView_rili)
+    TextView textViewRili;
+    @BindView(R.id.cardview_rili)
+    CardView cardviewRili;
+    @BindView(R.id.jianjie_9)
+    TextView jianjie9;
+    @BindView(R.id.cardview_splash)
+    CardView cardviewSplash;
+    @BindView(R.id.jianjie_10)
+    TextView jianjie10;
+    @BindView(R.id.textView_splash)
+    TextView textViewSplash;
+    @BindView(R.id.cardview_softInput)
+    CardView cardviewSoftInput;
+    @BindView(R.id.jianjie_11)
+    TextView jianjie11;
+    @BindView(R.id.cardview_brvah)
+    CardView cardviewBrvah;
+    @BindView(R.id.jianjie_12)
+    TextView jianjie12;
+    @BindView(R.id.cardview_listview)
+    CardView cardviewListview;
+    @BindView(R.id.jianjie_13)
+    TextView jianjie13;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -65,11 +107,51 @@ public class MBMainSelectActivity extends AppCompatActivity {
     }
 
 
-    @OnClick({R.id.cardview_textinput,R.id.cardview_appbar, R.id.jianjie_5, R.id.cardview_buju, R.id.jianjie_4, R.id.cardview_tablayout, R.id
-            .cardview_fg, R.id.jianjie_1, R.id
-            .jianjie_3, R.id.cardview_tablayout_2})
+    @OnClick({R.id.cardview_listview,R.id.jianjie_13,R.id.jianjie_10, R.id.cardview_softInput, R.id.cardview_brvah, R.id.cardview_splash, R.id.jianjie_9, R
+            .id.cardview_rili, R.id.cardview_language, R.id
+            .jianjie_8, R.id.jianjie_7, R.id.jianjie_11, R.id.jianjie_12, R.id.cardview_dialog, R.id
+            .cardview_textinput, R.id.cardview_appbar, R.id
+            .jianjie_5, R.id.cardview_buju, R.id.jianjie_4, R.id.cardview_tablayout, R.id.cardview_fg, R.id.jianjie_1,
+            R.id.jianjie_3, R.id.cardview_tablayout_2})
     public void onViewClicked(View view) {
         switch (view.getId()) {
+            case R.id.cardview_listview:
+                startActivity(new Intent(MBMainSelectActivity.this, ListViewActivity.class));
+                break;
+            case R.id.jianjie_13:
+                break;
+
+            case R.id.cardview_brvah:
+                startActivity(new Intent(MBMainSelectActivity.this, BravhActivity.class));
+                break;
+            case R.id.jianjie_12:
+                break;
+            case R.id.cardview_softInput:
+//                startActivity(new Intent(MBMainSelectActivity.this, DiffViewPagerActivity.class));
+                break;
+            case R.id.jianjie_11:
+                break;
+            case R.id.cardview_splash:
+                startActivity(new Intent(MBMainSelectActivity.this, DiffViewPagerActivity.class));
+                break;
+            case R.id.jianjie_10:
+                break;
+            case R.id.cardview_rili:
+                startActivity(new Intent(MBMainSelectActivity.this, RiLiActivity.class));
+                break;
+            case R.id.jianjie_9:
+                break;
+            case R.id.cardview_language:
+                startActivity(new Intent(MBMainSelectActivity.this, ChangeLanguageActivity.class));
+                break;
+            case R.id.jianjie_8:
+                break;
+            case R.id.cardview_dialog:
+                startActivity(new Intent(MBMainSelectActivity.this, ActivityForUseDialog.class));
+                break;
+            case R.id.jianjie_7:
+                break;
+
             case R.id.cardview_appbar:
                 startActivity(new Intent(MBMainSelectActivity.this, CoordinatorLayoutSelectActivity.class));
                 break;

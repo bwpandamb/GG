@@ -2,7 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="com.example.achar.javatokotlin">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+
     <application
+        android:name=".MbApplication"
         android:allowBackup="true"
         android:icon="@mipmap/xiaomi"
         android:label="@string/app_name"
@@ -41,6 +44,24 @@
         <activity android:name=".activity.appbar.CoordinatorLayoutSelectActivity">
         </activity>
         <activity android:name=".activity.textinput.TextInputActivity">
+        </activity>
+        <activity android:name=".activity.dialog_use.ActivityForUseDialog">
+        </activity>
+        <activity android:name=".activity.dialog_use.TestLanguageActivity">
+        </activity>
+        <activity android:name=".activity.change_language_in_app.ChangeLanguageActivity">
+        </activity>
+        <activity android:name=".activity.rili.RiLiActivity">
+        </activity>
+        <activity android:name=".activity.viewpager.SplashActivity">
+        </activity>
+        <activity android:name=".activity.viewpager.DiffViewPagerActivity">
+        </activity>
+        <activity android:name=".activity.viewpager.ViewPagerActivity">
+        </activity>
+        <activity android:name=".activity.bravh.BravhActivity">
+        </activity>
+        <activity android:name=".activity.listview.ListViewActivity">
         </activity>
     </application>
 

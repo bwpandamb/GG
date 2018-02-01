@@ -5,24 +5,24 @@
         android:id="@+id/action_news"
         android:enabled="true"
         android:icon="@drawable/ic_newspaper_white_24dp"
-        android:title="新闻"
+        android:title="News"
         app:showAsAction="always"/>
     <item
         android:id="@+id/action_photo"
         android:enabled="true"
         android:icon="@drawable/ic_gallery_white_24dp"
-        android:title="照片"
+        android:title="Photos"
         app:showAsAction="always"/>
     <item
         android:id="@+id/action_video"
         android:enabled="true"
         android:icon="@drawable/ic_youtube_white_24dp"
-        android:title="视频"
+        android:title="Schedule"
         app:showAsAction="always"/>
     <item
         android:id="@+id/action_media"
         android:enabled="true"
         android:icon="@drawable/ic_library_books_white_24dp"
-        android:title="媒体"
+        android:title="Messages"
         app:showAsAction="always"/>
 </menu>

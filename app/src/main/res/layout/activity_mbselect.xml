@@ -1,219 +1,467 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+
+<android.support.v4.widget.NestedScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context="com.example.achar.javatokotlin.MBMainSelectActivity">
-
+    android:layout_height="match_parent">
 
     <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:orientation="horizontal">
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.example.achar.javatokotlin.MBMainSelectActivity">
 
-        <android.support.v7.widget.CardView
-            android:id="@+id/cardview_tablayout"
-            android:layout_width="0dp"
+
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:layout_weight="1.5"
-            android:foreground="?android:attr/selectableItemBackground"
-            app:cardBackgroundColor="#333"
-            app:cardCornerRadius="5dp"
-            app:cardElevation="10px">
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardview_tablayout"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1.5"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardBackgroundColor="#333"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="10px">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@color/colorPrimary"
+                    android:gravity="center"
+                    android:text="Tab标签的使用"/>
+
+            </android.support.v7.widget.CardView>
 
             <TextView
-                android:layout_width="match_parent"
+                android:id="@+id/jianjie_1"
+                android:layout_width="0dp"
                 android:layout_height="50dp"
+                android:layout_weight="1"
                 android:background="@color/colorPrimary"
                 android:gravity="center"
-                android:text="Tab标签的使用"/>
+                android:text="简介"/>
+        </LinearLayout>
 
-        </android.support.v7.widget.CardView>
-
-        <TextView
-            android:id="@+id/jianjie_1"
-            android:layout_width="0dp"
-            android:layout_height="50dp"
-            android:layout_weight="1"
-            android:background="@color/colorPrimary"
-            android:gravity="center"
-            android:text="简介"/>
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:orientation="horizontal">
-
-        <android.support.v7.widget.CardView
-            android:id="@+id/cardview_fg"
-            android:layout_width="0dp"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:layout_weight="1.5"
-            app:cardElevation="10px">
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardview_fg"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1.5"
+                app:cardElevation="10px">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@color/colorPrimary"
+                    android:gravity="center"
+                    android:text="单纯的写一个fragment依附于activity"/>
+
+            </android.support.v7.widget.CardView>
 
             <TextView
-                android:id="@+id/textView"
-                android:layout_width="match_parent"
+                android:id="@+id/jianjie_2"
+                android:layout_width="0dp"
                 android:layout_height="50dp"
+                android:layout_weight="1"
                 android:background="@color/colorPrimary"
                 android:gravity="center"
-                android:text="单纯的写一个fragment依附于activity"/>
+                android:text="简介"/>
+        </LinearLayout>
 
-        </android.support.v7.widget.CardView>
-
-        <TextView
-            android:id="@+id/jianjie_2"
-            android:layout_width="0dp"
-            android:layout_height="50dp"
-            android:layout_weight="1"
-            android:background="@color/colorPrimary"
-            android:gravity="center"
-            android:text="简介"/>
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:orientation="horizontal">
-
-        <android.support.v7.widget.CardView
-            android:id="@+id/cardview_tablayout_2"
-            android:layout_width="0dp"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:layout_weight="1.5"
-            app:cardElevation="10px">
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardview_tablayout_2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1.5"
+                app:cardElevation="10px">
+
+                <TextView
+                    android:id="@+id/textView_tablayout_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@color/colorPrimary"
+                    android:gravity="center"
+                    android:text="tablayout + viewPager 嵌套"/>
+
+            </android.support.v7.widget.CardView>
 
             <TextView
-                android:id="@+id/textView_tablayout_2"
-                android:layout_width="match_parent"
+                android:id="@+id/jianjie_3"
+                android:layout_width="0dp"
                 android:layout_height="50dp"
+                android:layout_weight="1"
                 android:background="@color/colorPrimary"
                 android:gravity="center"
-                android:text="tablayout + viewPager 嵌套"/>
+                android:text="简介"/>
+        </LinearLayout>
 
-        </android.support.v7.widget.CardView>
-
-        <TextView
-            android:id="@+id/jianjie_3"
-            android:layout_width="0dp"
-            android:layout_height="50dp"
-            android:layout_weight="1"
-            android:background="@color/colorPrimary"
-            android:gravity="center"
-            android:text="简介"/>
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:orientation="horizontal">
-
-        <android.support.v7.widget.CardView
-            android:id="@+id/cardview_buju"
-            android:layout_width="0dp"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:layout_weight="1.5"
-            app:cardElevation="10px">
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardview_buju"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1.5"
+                app:cardElevation="10px">
+
+                <TextView
+                    android:id="@+id/textView_buju"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@color/colorPrimary"
+                    android:gravity="center"
+                    android:text="BottomNavigationBar的使用"/>
+
+            </android.support.v7.widget.CardView>
 
             <TextView
-                android:id="@+id/textView_buju"
-                android:layout_width="match_parent"
+                android:id="@+id/jianjie_4"
+                android:layout_width="0dp"
                 android:layout_height="50dp"
+                android:layout_weight="1"
                 android:background="@color/colorPrimary"
                 android:gravity="center"
-                android:text="BottomNavigationBar的使用"/>
-
-        </android.support.v7.widget.CardView>
-
-        <TextView
-            android:id="@+id/jianjie_4"
-            android:layout_width="0dp"
-            android:layout_height="50dp"
-            android:layout_weight="1"
-            android:background="@color/colorPrimary"
-            android:gravity="center"
-            android:text="简介"/>
-    </LinearLayout>
+                android:text="简介"/>
+        </LinearLayout>
 
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:orientation="horizontal">
-
-        <android.support.v7.widget.CardView
-            android:id="@+id/cardview_appbar"
-            android:layout_width="0dp"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:layout_weight="1.5"
-            app:cardElevation="10px">
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardview_appbar"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1.5"
+                app:cardElevation="10px">
+
+                <TextView
+                    android:id="@+id/textView_appbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@color/colorPrimary"
+                    android:gravity="center"
+                    android:text="AppBar的使用"/>
+
+            </android.support.v7.widget.CardView>
 
             <TextView
-                android:id="@+id/textView_appbar"
-                android:layout_width="match_parent"
+                android:id="@+id/jianjie_5"
+                android:layout_width="0dp"
                 android:layout_height="50dp"
+                android:layout_weight="1"
                 android:background="@color/colorPrimary"
                 android:gravity="center"
-                android:text="AppBar的使用"/>
+                android:text="简介"/>
+        </LinearLayout>
 
-        </android.support.v7.widget.CardView>
-
-        <TextView
-            android:id="@+id/jianjie_5"
-            android:layout_width="0dp"
-            android:layout_height="50dp"
-            android:layout_weight="1"
-            android:background="@color/colorPrimary"
-            android:gravity="center"
-            android:text="简介"/>
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:orientation="horizontal">
-
-        <android.support.v7.widget.CardView
-            android:id="@+id/cardview_textinput"
-            android:layout_width="0dp"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:layout_weight="1.5"
-            app:cardElevation="10px">
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardview_textinput"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1.5"
+                app:cardElevation="10px">
+
+                <TextView
+                    android:id="@+id/textView_textinput"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@color/colorPrimary"
+                    android:gravity="center"
+                    android:text="TextInputLayout的使用"/>
+
+            </android.support.v7.widget.CardView>
 
             <TextView
-                android:id="@+id/textView_textinput"
-                android:layout_width="match_parent"
+                android:id="@+id/jianjie_6"
+                android:layout_width="0dp"
                 android:layout_height="50dp"
+                android:layout_weight="1"
                 android:background="@color/colorPrimary"
                 android:gravity="center"
-                android:text="TextInputLayout的使用"/>
+                android:text="简介"/>
+        </LinearLayout>
 
-        </android.support.v7.widget.CardView>
 
-        <TextView
-            android:id="@+id/jianjie_6"
-            android:layout_width="0dp"
-            android:layout_height="50dp"
-            android:layout_weight="1"
-            android:background="@color/colorPrimary"
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="简介"/>
-    </LinearLayout>
+            android:orientation="horizontal">
 
-</LinearLayout>
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardview_dialog"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1.5"
+                app:cardElevation="10px">
+
+                <TextView
+                    android:id="@+id/textView_dialog"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@color/colorPrimary"
+                    android:gravity="center"
+                    android:text="dialog的各种开发"/>
+
+            </android.support.v7.widget.CardView>
+
+            <TextView
+                android:id="@+id/jianjie_7"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@color/colorPrimary"
+                android:gravity="center"
+                android:text="简介"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardview_language"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1.5"
+                app:cardElevation="10px">
+
+                <TextView
+                    android:id="@+id/textView_language"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@color/colorPrimary"
+                    android:gravity="center"
+                    android:text="修改语言"/>
+
+            </android.support.v7.widget.CardView>
+
+            <TextView
+                android:id="@+id/jianjie_8"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@color/colorPrimary"
+                android:gravity="center"
+                android:text="简介"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardview_rili"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1.5"
+                app:cardElevation="10px">
+
+                <TextView
+                    android:id="@+id/textView_rili"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@color/colorPrimary"
+                    android:gravity="center"
+                    android:text="日历"/>
+
+            </android.support.v7.widget.CardView>
+
+            <TextView
+                android:id="@+id/jianjie_9"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@color/colorPrimary"
+                android:gravity="center"
+                android:text="简介"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardview_splash"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1.5"
+                app:cardElevation="10px">
+
+                <TextView
+                    android:id="@+id/textView_splash"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@color/colorPrimary"
+                    android:gravity="center"
+                    android:text="ViewPager制作splash界面"/>
+
+            </android.support.v7.widget.CardView>
+
+            <TextView
+                android:id="@+id/jianjie_10"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@color/colorPrimary"
+                android:gravity="center"
+                android:text="简介"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardview_softInput"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1.5"
+                app:cardElevation="10px">
+
+                <TextView
+                    android:id="@+id/textView_softInput"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@color/colorPrimary"
+                    android:gravity="center"
+                    android:text="软键盘和按键跟随"/>
+
+            </android.support.v7.widget.CardView>
+
+            <TextView
+                android:id="@+id/jianjie_11"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@color/colorPrimary"
+                android:gravity="center"
+                android:text="简介"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardview_brvah"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1.5"
+                app:cardElevation="10px">
+
+                <TextView
+                    android:id="@+id/textView_brvah"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@color/colorPrimary"
+                    android:gravity="center"
+                    android:text="brvah的recyclyView的使用"/>
+
+            </android.support.v7.widget.CardView>
+
+            <TextView
+                android:id="@+id/jianjie_12"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@color/colorPrimary"
+                android:gravity="center"
+                android:text="简介"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardview_listview"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1.5"
+                app:cardElevation="10px">
+
+                <TextView
+                    android:id="@+id/textView_listview"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@color/colorPrimary"
+                    android:gravity="center"
+                    android:text="listview使用"/>
+
+            </android.support.v7.widget.CardView>
+
+            <TextView
+                android:id="@+id/jianjie_13"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@color/colorPrimary"
+                android:gravity="center"
+                android:text="简介"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

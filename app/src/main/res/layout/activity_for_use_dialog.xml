@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.achar.javatokotlin.activity.dialog_use.ActivityForUseDialog">
+
+    <Button
+        android:id="@+id/btn_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="透明的背景，可以添加任何内容进来"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="带叉的dialog(不全屏)"/>
+
+        <Button
+            android:id="@+id/btn_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="带叉的dialog（全屏）"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="带叉的dialog，叉和布局一半内一半外"/>
+
+    <Button
+        android:id="@+id/btn_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="点击显示麦依的那个dialog"/>
+    <Button
+        android:id="@+id/btn_6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="点击显示"/>
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:gravity="center"
+        android:text="时间"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+
+
+    <TextView
+        android:gravity="center"
+        android:text="@string/time"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+
+</LinearLayout>

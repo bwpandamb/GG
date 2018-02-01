@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/dialog_root_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/iv_close"
+        android:layout_width="wrap_content"
+        android:layout_height="29dp"
+        android:layout_marginBottom="338dp"
+        android:layout_marginLeft="285dp"
+        android:elevation="3dp"
+        android:background="@drawable/shape_circle"
+        app:layout_constraintBottom_toBottomOf="@+id/ll_root_content"
+        app:layout_constraintStart_toStartOf="@+id/ll_root_content"
+        app:srcCompat="@drawable/ic_close_black_24dp"/>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/ll_root_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.37">
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="350dp"
+            android:background="@drawable/shape_dialog_white_bg"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@mipmap/header">
+
+                <TextView
+                    android:id="@+id/tv_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="30dp"
+                    android:background="@color/white"
+                    android:text="我记得当时在麦依就有这个奇葩的dialog，但是右上角的那个叉我无论如何都搞不定，这次OK了
+然而还是遇到问题了，我想设置一下圆角，发现我还需要一个可以控制圆角的imageView
+经过研究，我其实不需要imageView，我在这里需要一个可以设置圆角的父布局，我选择了cardview"/>
+
+                <TextView
+                    android:id="@+id/tv_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:text="点击》》"/>
+            </RelativeLayout>
+
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+
+</android.support.constraint.ConstraintLayout>

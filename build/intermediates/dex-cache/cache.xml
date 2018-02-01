@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/ext.charles.ma/.android/build-cache/e2a0298b344f203b091a9c2c87987d9658a9b264/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="91c61d562f697ea47930557f10484d8dffa3af10">
+        <dex dex="/Users/ext.charles.ma/Desktop/kotlinPro/123/GG/app/build/intermediates/pre-dexed/debug/classes_be75a84fc57f9094e9176b9dbf5fd5fa1adc7176.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ext.charles.ma/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.7/751f548c85fa49f330cecbb1875893f971b33c4e/gson-2.7.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="/Users/ext.charles.ma/Desktop/kotlinPro/123/GG/app/build/intermediates/pre-dexed/debug/gson-2.7_2923e3bf4c98609435a115461508b40fb9f123d4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ext.charles.ma/.android/build-cache/ff2addd3bfb8de65c1a1a004527c8e0a87817fb3/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="4e025b1d2c6c837b248a5a68a112276b9b5641ce">
+        <dex dex="/Users/ext.charles.ma/Desktop/kotlinPro/123/GG/app/build/intermediates/pre-dexed/debug/classes_d077423d638e44e4e9094b65f8e52cbda5ad72cd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ext.charles.ma/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava/1.1.1/b494968f6050d494de55dc3ce005e59c7eb40012/rxjava-1.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="b494968f6050d494de55dc3ce005e59c7eb40012">
+        <dex dex="/Users/ext.charles.ma/Desktop/kotlinPro/123/GG/app/build/intermediates/pre-dexed/debug/rxjava-1.1.1_958296a1e760b78ceba691f98f78782328f680d3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ext.charles.ma/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.3.0/2b802460eea20f8f2ad9c08c74e0f14718e88aa9/okhttp-3.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="2b802460eea20f8f2ad9c08c74e0f14718e88aa9">
+        <dex dex="/Users/ext.charles.ma/Desktop/kotlinPro/123/GG/app/build/intermediates/pre-dexed/debug/okhttp-3.3.0_6c30d34136c7d9400193bd202d2bfb2dabc82dcd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ext.charles.ma/.android/build-cache/7d41ff301b5ed028bae808893bf8896617f92fbb/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="fa61569ed84bc6979e529ec7d92bb4756b1c3572">
+        <dex dex="/Users/ext.charles.ma/Desktop/kotlinPro/123/GG/app/build/intermediates/pre-dexed/debug/classes_52b18829ec7b73af2bfcf35d5df184540cd0a0c5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ext.charles.ma/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/adapter-rxjava/2.0.0/bf61256d9868ea053e24d77669c55c80db375c15/adapter-rxjava-2.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="bf61256d9868ea053e24d77669c55c80db375c15">
+        <dex dex="/Users/ext.charles.ma/Desktop/kotlinPro/123/GG/app/build/intermediates/pre-dexed/debug/adapter-rxjava-2.0.0_c5aa614b932cb23e145a2c77cc59210d70139524.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ext.charles.ma/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.1.0/aa557d71ead91cbf26e0c316a0f593d168303309/converter-gson-2.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="aa557d71ead91cbf26e0c316a0f593d168303309">
+        <dex dex="/Users/ext.charles.ma/Desktop/kotlinPro/123/GG/app/build/intermediates/pre-dexed/debug/converter-gson-2.1.0_e047f559fc87a5d7b3361529330c1c4e3da94fb6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ext.charles.ma/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.8.0/5ea7af56cc7c567ed9856d99efb30740e9b17ff/okio-1.8.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
+        <dex dex="/Users/ext.charles.ma/Desktop/kotlinPro/123/GG/app/build/intermediates/pre-dexed/debug/okio-1.8.0_55021c895d3d235c059cd1183f0c43650b596f04.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ext.charles.ma/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.1.0/2de7cd8b95b7021b1d597f049bcb422055119f2c/retrofit-2.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
+        <dex dex="/Users/ext.charles.ma/Desktop/kotlinPro/123/GG/app/build/intermediates/pre-dexed/debug/retrofit-2.1.0_cdd2425aef1d19e82bf3a86546a175f4079210eb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ext.charles.ma/.android/build-cache/ce9b9211b55b35f4fcb3d5269bb3a5dedb201f9d/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="928b73afabcd116944e9487771d4121168eac1a4">
+        <dex dex="/Users/ext.charles.ma/Desktop/kotlinPro/123/GG/app/build/intermediates/pre-dexed/debug/classes_a99a7af375c30fe029788a54ccfd4c10272a8dbb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ext.charles.ma/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-scalars/2.0.0/b0a1e7a46e0366fc062a76d8ad7c6bb0bf68c28f/converter-scalars-2.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="b0a1e7a46e0366fc062a76d8ad7c6bb0bf68c28f">
+        <dex dex="/Users/ext.charles.ma/Desktop/kotlinPro/123/GG/app/build/intermediates/pre-dexed/debug/converter-scalars-2.0.0_5775e43f6c02cc172fe92f5f4868f67dcb2da656.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ext.charles.ma/.android/build-cache/86c1c69061c708364cd3fc5fdada9b9f6940ae3d/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="aa81bfe8c5cc88c2472ca936ae71f0c3dd1766df">
+        <dex dex="/Users/ext.charles.ma/Desktop/kotlinPro/123/GG/app/build/intermediates/pre-dexed/debug/classes_020b1db5cc5adc1b78fd47d6a5b9d118ab4586d9.jar" />
+    </item>
+
+</items>

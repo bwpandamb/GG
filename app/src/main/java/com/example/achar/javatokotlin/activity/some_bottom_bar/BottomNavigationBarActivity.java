@@ -6,6 +6,7 @@ import android.support.design.widget.BottomNavigationView;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
+import android.view.View;
 
 import com.example.achar.javatokotlin.R;
 import com.example.achar.javatokotlin.activity.bottomNavBar.BottomNavigationViewHelper;
@@ -15,6 +16,9 @@ import com.example.achar.javatokotlin.activity.fragmnet_train.fragment.SampleFra
 import com.example.achar.javatokotlin.activity.tablayout.PageFragmentWithTablayout;
 import com.example.achar.javatokotlin.activity.tablayout.PageFragmentWithTablayout2;
 import com.example.achar.javatokotlin.activity.tablayout.TabLayoutFragment;
+
+import q.rorbin.badgeview.Badge;
+import q.rorbin.badgeview.QBadgeView;
 
 
 /**
@@ -43,8 +47,21 @@ public class BottomNavigationBarActivity extends AppCompatActivity {
 
         mBottomNavigationView = (BottomNavigationView) findViewById(R.id.bottomnavigationview);
         BottomNavigationViewHelper.disableShiftMode(mBottomNavigationView);
-
         showFragment(FRAGMENT_NEWS);
+
+        new QBadgeView(this)
+                .setBadgeNumber(91)
+                .setGravityOffset(20, 2, true)
+                .bindTarget(mBottomNavigationView.getChildAt(0).findViewById(R.id.action_video))
+                .setOnDragStateChangedListener(new Badge.OnDragStateChangedListener() {
+                    @Override
+                    public void onDragStateChanged(int dragState, Badge badge, View targetView) {
+                        if (Badge.OnDragStateChangedListener.STATE_SUCCEED == dragState) {
+                        }
+//                            Toast.makeText(BadgeViewActivity.this, R.string.tips_badge_removed, Toast.LENGTH_SHORT)
+// .show();
+                    }
+                });
 
         mBottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView
                 .OnNavigationItemSelectedListener() {
