@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--<item>-->
+    <!--<bitmap-->
+    <!--android:gravity="fill"-->
+    <!--android:src="@drawable/dialog_shape"/>   这个都不是bitmap或者图片，肯定报错-->
+
+    <!--</item>-->
+    <item>
+        <bitmap
+            android:gravity="fill"
+            android:src="@mipmap/taobao_splash"/>
+
+    </item>
+    <!--<item><bitmap android:gravity="bottom|center" android:src="@drawable/splash_bottom" /></item>-->
+
+</layer-list>

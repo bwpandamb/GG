@@ -34,6 +34,15 @@
         <item name="textAllCaps">false</item>
     </style>
 
+    <style name="MyTestNoBlankSplash.Welcome" parent="Base.AppTheme">
+        <item name="android:windowBackground">@drawable/splash_layers</item>
+        <item name="android:windowNoTitle">true</item>
+        <!--<item name="android:windowAnimationStyle">@style/noAnimation</item>-->
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+
+
     <style name="OverFlowMenuTheme" parent="Theme.AppCompat.NoActionBar">
         <item name="android:actionMenuTextColor">@color/white</item>
         <item name="android:textColorSecondary">@color/white</item>
@@ -50,7 +59,5 @@
     <style name="dialogAnimSet" parent="android:Animation">
         <item name="android:windowEnterAnimation">@anim/dialog_in</item>
         <item name="android:windowExitAnimation">@anim/dialog_out</item>
-
-
     </style>
 </resources>

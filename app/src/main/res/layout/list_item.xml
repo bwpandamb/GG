@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="2dp">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/text_context"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@color/red"
+            android:gravity="center"
+            android:text="ViewPager制作splash界面"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:layout_gravity="right"
+            android:id="@+id/text_introduction"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@color/blue"
+            android:gravity="center"
+            android:text="简介"
+            android:textColor="@color/white"/>
+    </FrameLayout>
+
+</LinearLayout>

@@ -78,4 +78,12 @@
     <string name="pref_title_vibrate">Vibrate</string>
     <string name="time">time</string>
     <string name="language_sample">The only things you learn are the things you tame,said the fox.people haven\'t time to learn any thing.they buy things ready made in stores.but since there are no stores where you can buy friends,people no longer have friends.If you want a friend,tame me.What do I have to do?asked the little prince.You have to be very patient,the little fox answered.first you will sit down a little ways away from me,over there,in the grass.I will watch you out of the corner of my eye,and you won\'t say anything.language is the source of misunderstandings.but day by day,you will be able to sit a little closer...</string>
+
+
+    <!--需要定义这个字符串了，要不然很多内容太长了，写在代码里面显得很臃肿-->
+    <string name="jj_tablelayout_fragment">我想要使用activity+tablayout+viewpager作为第一层实现，下面的几个TAB切换fragment\n然后内部再使用tablayout+viewpager来嵌套使用，来实现上面TAB的切换\n然后通过禁止第一个viewpager（activity）中的滑动来解决冲突，同时实现我想要的上下tab都有的效果 然而这个貌似有一些BUG，当两个页面都是tablayout+viewpager时，会出现fragment内容丢失，看起来渲染失败了，而且滑动很卡\n如果只有一个页面是tablayout+viewpager，那就还好，我没发现问提</string>
+    <string name="jj_fragment_attach_activity">简单的使用了tablayout，配合了ViewPagerFragment的显示方式\n可以拓展的地方在于tablayout的一些属性还有tablayout放在的位置我认为还是可以放在下面的</string>
+    <string name="fast_splash">https://www.zhihu.com/question/35336192 \n 效果需要把这个页面设置为启动页才有，确实一般的应用直接打开先显示白屏，虽然时间很短。但是有一些应用却克服了这个，比如淘宝，其实是巧妙的利用了主题设置背景图片，原理大概就是直接改变了window层的东西，而不是activity，毕竟activity中xml渲染也是需要时间的</string>
+
+
 </resources>

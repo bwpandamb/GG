@@ -63,6 +63,23 @@
         </activity>
         <activity android:name=".activity.listview.ListViewActivity">
         </activity>
+        <activity android:name=".activity.RecycleView.RecycleListActivity">
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.MAIN"/>-->
+
+                <!--<category android:name="android.intent.category.LAUNCHER"/>-->
+            <!--</intent-filter>-->
+        </activity>
+        <activity
+            android:theme="@style/MyTestNoBlankSplash.Welcome"
+            android:name=".activity.fast_spalsh_loading.WelcomeActivity">
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.MAIN"/>-->
+
+                <!--<category android:name="android.intent.category.LAUNCHER"/>-->
+            <!--</intent-filter>-->
+
+        </activity>
     </application>
 
 </manifest>
