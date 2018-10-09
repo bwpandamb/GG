@@ -15,11 +15,13 @@
         <activity android:name=".MainActivity">
         </activity>
         <activity android:name=".MBMainSelectActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
 
-                <category android:name="android.intent.category.LAUNCHER"/>
-            </intent-filter>
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN"/> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER"/> -->
+            <!-- </intent-filter> -->
         </activity>
         <activity android:name=".activity.fragmnet_train.FragmentTrainActivity">
         </activity>
@@ -64,21 +66,24 @@
         <activity android:name=".activity.listview.ListViewActivity">
         </activity>
         <activity android:name=".activity.RecycleView.RecycleListActivity">
-            <!--<intent-filter>-->
-                <!--<action android:name="android.intent.action.MAIN"/>-->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
 
-                <!--<category android:name="android.intent.category.LAUNCHER"/>-->
-            <!--</intent-filter>-->
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
         </activity>
         <activity
-            android:theme="@style/MyTestNoBlankSplash.Welcome"
-            android:name=".activity.fast_spalsh_loading.WelcomeActivity">
-            <!--<intent-filter>-->
-                <!--<action android:name="android.intent.action.MAIN"/>-->
+            android:name=".activity.fast_spalsh_loading.WelcomeActivity"
+            android:theme="@style/MyTestNoBlankSplash.Welcome">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
 
-                <!--<category android:name="android.intent.category.LAUNCHER"/>-->
-            <!--</intent-filter>-->
-
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.diff_recycle_view.DiffRecycleViewActivity">
+        </activity>
+        <activity android:name=".activity.progress_line.ProgressLineActivity">
         </activity>
     </application>
 

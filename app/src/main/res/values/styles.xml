@@ -60,4 +60,10 @@
         <item name="android:windowEnterAnimation">@anim/dialog_in</item>
         <item name="android:windowExitAnimation">@anim/dialog_out</item>
     </style>
+
+    <declare-styleable name="ProgressCircleView">
+        <attr name="border_color" format="color"/>
+        <attr name="border_width" format="dimension"/>
+        <attr name="myRoundProgressColor" format="color"/>
+    </declare-styleable>
 </resources>

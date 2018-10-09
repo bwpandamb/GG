@@ -14,9 +14,11 @@ import com.example.achar.javatokotlin.activity.appbar.CoordinatorLayoutSelectAct
 import com.example.achar.javatokotlin.activity.bravh.BravhActivity;
 import com.example.achar.javatokotlin.activity.change_language_in_app.ChangeLanguageActivity;
 import com.example.achar.javatokotlin.activity.dialog_use.ActivityForUseDialog;
+import com.example.achar.javatokotlin.activity.diff_recycle_view.DiffRecycleViewActivity;
 import com.example.achar.javatokotlin.activity.fast_spalsh_loading.WelcomeActivity;
 import com.example.achar.javatokotlin.activity.fragmnet_train.FragmentTrainActivity;
 import com.example.achar.javatokotlin.activity.listview.ListViewActivity;
+import com.example.achar.javatokotlin.activity.progress_line.ProgressLineActivity;
 import com.example.achar.javatokotlin.activity.rili.RiLiActivity;
 import com.example.achar.javatokotlin.activity.some_bottom_bar.BottomNavigationBarActivity;
 import com.example.achar.javatokotlin.activity.tablayout.TabLayoutDoubleActivity;
@@ -107,6 +109,10 @@ public class RecycleListActivity extends AppCompatActivity {
                 "没有简介", ListViewActivity.class));
         mDataList.add(new ItemContextBean("应用打开时没有白黑屏闪，直接就是spalsh",
                 getString(R.string.fast_splash), WelcomeActivity.class));
+        mDataList.add(new ItemContextBean("我看看表格recycle设置不同类型",
+                "没有简介", DiffRecycleViewActivity.class));
+        mDataList.add(new ItemContextBean("进度条",
+                "没有简介", ProgressLineActivity.class));
 
     }
 

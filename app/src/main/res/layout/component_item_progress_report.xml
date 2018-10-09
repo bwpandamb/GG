@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="@drawable/shadow_181222"
+    >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        custom:layout_heightPercent="25%"
+        custom:layout_marginBottomPercent="4%"
+        custom:layout_marginLeftPercent="8%"
+        custom:layout_marginRightPercent="8%"
+        custom:layout_marginTopPercent="4%"
+        custom:layout_widthPercent="100%">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/pr_item_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="Unit -1 "
+                android:textColor="#4a4a4a"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/pr_item_total_score"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:layout_below="@+id/pr_item_title"
+                android:gravity="right"
+                android:lines="1"
+                android:maxEms="5"
+                android:text="总分："
+                android:textAlignment="@id/pr_item_title"
+                android:textColor="#4a4a4a"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </FrameLayout>
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        custom:layout_heightPercent="50%"
+        custom:layout_marginBottomPercent="4%"
+        custom:layout_marginLeftPercent="8%"
+        custom:layout_marginRightPercent="8%"
+        custom:layout_marginTopPercent="22%"
+        custom:layout_widthPercent="100%">
+
+        <!--<com.ef.parents.ui.views.ProgressCircleView-->
+            <!--android:id="@+id/pr_item_score"-->
+            <!--android:layout_width="80dp"-->
+            <!--android:layout_height="80dp"-->
+            <!--android:layout_gravity="center"-->
+            <!--/>-->
+    </FrameLayout>
+
+    <!--<com.ef.parents.ui.views.ProgressIndicatorView-->
+        <!--android:id="@+id/pr_item_score"-->
+        <!--android:layout_width="@dimen/pr_unit_score_bar_width"-->
+        <!--android:layout_height="@dimen/pr_unit_score_bar_height"-->
+        <!--custom:layout_widthPercent="100%"-->
+        <!--custom:layout_heightPercent="50%"-->
+        <!--custom:layout_marginTopPercent="22%"-->
+        <!--android:layout_gravity="center"-->
+        <!--custom:progress_amount="83"-->
+        <!--custom:progress_radius="@dimen/pr_unit_score_bar_radius"-->
+        <!--custom:progress_background_color="@color/pr_header_background"-->
+        <!--custom:progress_stroke_color="@color/pr_score_progress"-->
+        <!--custom:progress_text_color="@color/pr_score_text"-->
+        <!--/>  -->
+
+
+
+
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        custom:layout_widthPercent="100%"
+        custom:layout_heightPercent="1%"
+        custom:layout_marginTopPercent="78%"
+        android:background="#d1d3d2"
+        />
+
+    <ImageView
+        android:id="@+id/pr_item_details"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        custom:layout_widthPercent="25%"
+        custom:layout_heightPercent="23%"
+        custom:layout_marginTopPercent="82%"
+        custom:layout_marginBottomPercent="6%"
+        custom:layout_marginLeftPercent="75%"
+        custom:layout_marginRightPercent="4%"
+        android:src="@drawable/ic_arrow"
+        />
+
+
+</android.support.percent.PercentRelativeLayout>

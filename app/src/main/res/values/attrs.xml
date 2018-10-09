@@ -11,4 +11,15 @@
 
     </declare-styleable>
 
+
+    <declare-styleable name="MyProgressLine">
+        <attr name="strokeColor" format="color"/>
+        <attr name="fillColor" format="color"/>
+        <attr name="strokeWidth" format="dimension"/>
+        <attr name="fillHeight" format="dimension"/>
+        <attr name="maxProgress" format="integer"/>
+        <attr name="progressNumber" format="integer"/>
+
+    </declare-styleable>
+
 </resources>

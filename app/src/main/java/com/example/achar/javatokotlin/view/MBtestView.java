@@ -19,6 +19,8 @@ import static android.graphics.Paint.Style.STROKE;
 
 /**
  * Created by ext.charles.ma on 17/12/1.
+ *
+ * 自制的雷达控件，六边形能力图
  */
 
 public class MBtestView extends View {
