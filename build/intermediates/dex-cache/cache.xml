@@ -3,120 +3,291 @@
 
     <item
         is-multidex="false"
-        jar="/Users/ext.charles.ma/.android/build-cache/e2a0298b344f203b091a9c2c87987d9658a9b264/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="27.0.1"
-        sha1="91c61d562f697ea47930557f10484d8dffa3af10">
-        <dex dex="/Users/ext.charles.ma/Desktop/kotlinPro/123/GG/app/build/intermediates/pre-dexed/debug/classes_be75a84fc57f9094e9176b9dbf5fd5fa1adc7176.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/ext.charles.ma/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.7/751f548c85fa49f330cecbb1875893f971b33c4e/gson-2.7.jar"
+        jar="/Users/CharlesMa/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.7/751f548c85fa49f330cecbb1875893f971b33c4e/gson-2.7.jar"
         jumboMode="false"
         optimize="true"
         revision="27.0.1"
         sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
-        <dex dex="/Users/ext.charles.ma/Desktop/kotlinPro/123/GG/app/build/intermediates/pre-dexed/debug/gson-2.7_2923e3bf4c98609435a115461508b40fb9f123d4.jar" />
+        <dex dex="/Users/CharlesMa/Desktop/CharlesMaApp/GG/app/build/intermediates/pre-dexed/debug/gson-2.7_cbcdfc373faf9bbc1c6ede49695931daa91c25ae.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/ext.charles.ma/.android/build-cache/ff2addd3bfb8de65c1a1a004527c8e0a87817fb3/output/jars/classes.jar"
+        jar="/Users/CharlesMa/.android/build-cache/2457bb6fabf62dc7eb5ec5cb2756c6495af4a996/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="27.0.1"
-        sha1="4e025b1d2c6c837b248a5a68a112276b9b5641ce">
-        <dex dex="/Users/ext.charles.ma/Desktop/kotlinPro/123/GG/app/build/intermediates/pre-dexed/debug/classes_d077423d638e44e4e9094b65f8e52cbda5ad72cd.jar" />
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="/Users/CharlesMa/Desktop/CharlesMaApp/GG/app/build/intermediates/pre-dexed/debug/classes_2cc69b6f5ab224485cff5a9a84263858435c7621.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/ext.charles.ma/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava/1.1.1/b494968f6050d494de55dc3ce005e59c7eb40012/rxjava-1.1.1.jar"
+        jar="/Users/CharlesMa/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-annotations/8.5.1/bb67dad90bab7cd77a8f7f1b8442b47e3a2326bc/butterknife-annotations-8.5.1.jar"
         jumboMode="false"
         optimize="true"
         revision="27.0.1"
-        sha1="b494968f6050d494de55dc3ce005e59c7eb40012">
-        <dex dex="/Users/ext.charles.ma/Desktop/kotlinPro/123/GG/app/build/intermediates/pre-dexed/debug/rxjava-1.1.1_958296a1e760b78ceba691f98f78782328f680d3.jar" />
+        sha1="bb67dad90bab7cd77a8f7f1b8442b47e3a2326bc">
+        <dex dex="/Users/CharlesMa/Desktop/CharlesMaApp/GG/app/build/intermediates/pre-dexed/debug/butterknife-annotations-8.5.1_4df7ba0d833e78f42287e236e9fa681fbebe29fa.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/ext.charles.ma/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.3.0/2b802460eea20f8f2ad9c08c74e0f14718e88aa9/okhttp-3.3.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="27.0.1"
-        sha1="2b802460eea20f8f2ad9c08c74e0f14718e88aa9">
-        <dex dex="/Users/ext.charles.ma/Desktop/kotlinPro/123/GG/app/build/intermediates/pre-dexed/debug/okhttp-3.3.0_6c30d34136c7d9400193bd202d2bfb2dabc82dcd.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/ext.charles.ma/.android/build-cache/7d41ff301b5ed028bae808893bf8896617f92fbb/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="27.0.1"
-        sha1="fa61569ed84bc6979e529ec7d92bb4756b1c3572">
-        <dex dex="/Users/ext.charles.ma/Desktop/kotlinPro/123/GG/app/build/intermediates/pre-dexed/debug/classes_52b18829ec7b73af2bfcf35d5df184540cd0a0c5.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/ext.charles.ma/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/adapter-rxjava/2.0.0/bf61256d9868ea053e24d77669c55c80db375c15/adapter-rxjava-2.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="27.0.1"
-        sha1="bf61256d9868ea053e24d77669c55c80db375c15">
-        <dex dex="/Users/ext.charles.ma/Desktop/kotlinPro/123/GG/app/build/intermediates/pre-dexed/debug/adapter-rxjava-2.0.0_c5aa614b932cb23e145a2c77cc59210d70139524.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/ext.charles.ma/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.1.0/aa557d71ead91cbf26e0c316a0f593d168303309/converter-gson-2.1.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="27.0.1"
-        sha1="aa557d71ead91cbf26e0c316a0f593d168303309">
-        <dex dex="/Users/ext.charles.ma/Desktop/kotlinPro/123/GG/app/build/intermediates/pre-dexed/debug/converter-gson-2.1.0_e047f559fc87a5d7b3361529330c1c4e3da94fb6.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/ext.charles.ma/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.8.0/5ea7af56cc7c567ed9856d99efb30740e9b17ff/okio-1.8.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="27.0.1"
-        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
-        <dex dex="/Users/ext.charles.ma/Desktop/kotlinPro/123/GG/app/build/intermediates/pre-dexed/debug/okio-1.8.0_55021c895d3d235c059cd1183f0c43650b596f04.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/ext.charles.ma/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.1.0/2de7cd8b95b7021b1d597f049bcb422055119f2c/retrofit-2.1.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="27.0.1"
-        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
-        <dex dex="/Users/ext.charles.ma/Desktop/kotlinPro/123/GG/app/build/intermediates/pre-dexed/debug/retrofit-2.1.0_cdd2425aef1d19e82bf3a86546a175f4079210eb.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/ext.charles.ma/.android/build-cache/ce9b9211b55b35f4fcb3d5269bb3a5dedb201f9d/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="27.0.1"
-        sha1="928b73afabcd116944e9487771d4121168eac1a4">
-        <dex dex="/Users/ext.charles.ma/Desktop/kotlinPro/123/GG/app/build/intermediates/pre-dexed/debug/classes_a99a7af375c30fe029788a54ccfd4c10272a8dbb.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/ext.charles.ma/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-scalars/2.0.0/b0a1e7a46e0366fc062a76d8ad7c6bb0bf68c28f/converter-scalars-2.0.0.jar"
+        jar="/Users/CharlesMa/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-scalars/2.0.0/b0a1e7a46e0366fc062a76d8ad7c6bb0bf68c28f/converter-scalars-2.0.0.jar"
         jumboMode="false"
         optimize="true"
         revision="27.0.1"
         sha1="b0a1e7a46e0366fc062a76d8ad7c6bb0bf68c28f">
-        <dex dex="/Users/ext.charles.ma/Desktop/kotlinPro/123/GG/app/build/intermediates/pre-dexed/debug/converter-scalars-2.0.0_5775e43f6c02cc172fe92f5f4868f67dcb2da656.jar" />
+        <dex dex="/Users/CharlesMa/Desktop/CharlesMaApp/GG/app/build/intermediates/pre-dexed/debug/converter-scalars-2.0.0_dcc016769ed514bc23ea068305a6df0da05ab8f6.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/ext.charles.ma/.android/build-cache/86c1c69061c708364cd3fc5fdada9b9f6940ae3d/output/jars/classes.jar"
+        jar="/Users/CharlesMa/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.1/support-annotations-25.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="/Users/CharlesMa/Desktop/CharlesMaApp/GG/app/build/intermediates/pre-dexed/debug/support-annotations-25.3.1_7bb672a6e1c5207e5c7cdbaba94d54b62e5cfa18.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/CharlesMa/.android/build-cache/fb8cc1539165dbbe4628c8f79a328a3798a9484b/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="/Users/CharlesMa/Desktop/CharlesMaApp/GG/app/build/intermediates/pre-dexed/debug/classes_db8be8ad72a3566a0571dcbefbddbd676c94eb75.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/CharlesMa/.android/build-cache/f14c21b00386973fe4b4ebdc125c78581415fd98/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="928b73afabcd116944e9487771d4121168eac1a4">
+        <dex dex="/Users/CharlesMa/Desktop/CharlesMaApp/GG/app/build/intermediates/pre-dexed/debug/classes_cac6133c9cfd892616eaef57cfcc434380a631fe.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/CharlesMa/.android/build-cache/30691d338f632302be9ce1f5d3d9ca1d7f6d3b34/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="19f281a785ca0eb5f6799fc7bf7ca199a9ca1e8b">
+        <dex dex="/Users/CharlesMa/Desktop/CharlesMaApp/GG/app/build/intermediates/pre-dexed/debug/classes_9d4ef39e49ddb0b531aa2769f8d26fb8479930fa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/CharlesMa/.android/build-cache/76ba86451f142600350519add2729a14c9d853ef/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="fa61569ed84bc6979e529ec7d92bb4756b1c3572">
+        <dex dex="/Users/CharlesMa/Desktop/CharlesMaApp/GG/app/build/intermediates/pre-dexed/debug/classes_73d084228d3d35efda4b7c0b4d31efe1e568e00e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/CharlesMa/.android/build-cache/8ddab667f72f8ddf6f3d4ee0a705e8afdbf7b2c0/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="/Users/CharlesMa/Desktop/CharlesMaApp/GG/app/build/intermediates/pre-dexed/debug/classes_95641556ff07f05e7981ba0391215dc803a31de3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/CharlesMa/.android/build-cache/d8ac483f08e017cf7fe386fc9b007664b14ffb17/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="/Users/CharlesMa/Desktop/CharlesMaApp/GG/app/build/intermediates/pre-dexed/debug/classes_9302b445ce05a26816fb97aa09d81ce253d9ab4e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/CharlesMa/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava/1.1.1/b494968f6050d494de55dc3ce005e59c7eb40012/rxjava-1.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="b494968f6050d494de55dc3ce005e59c7eb40012">
+        <dex dex="/Users/CharlesMa/Desktop/CharlesMaApp/GG/app/build/intermediates/pre-dexed/debug/rxjava-1.1.1_b660487f0e0c0e310bc047d52d18778bfc5f1553.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/CharlesMa/.android/build-cache/36e01a8a85659af4eb14c6a7e0a698e886a683a6/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="ac52d3af299cba4652278b805a8a2db633393631">
+        <dex dex="/Users/CharlesMa/Desktop/CharlesMaApp/GG/app/build/intermediates/pre-dexed/debug/classes_347452285c3830a5af11e055b8e92b23d89a46fe.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/CharlesMa/.android/build-cache/fa8b79f0660914b0f27ef1216e24571032c7de56/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/Users/CharlesMa/Desktop/CharlesMaApp/GG/app/build/intermediates/pre-dexed/debug/classes_a3bdb469929610980d06bdad56aa06298a459f72.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/CharlesMa/.android/build-cache/1bef7d1b0b762c6f5171f9a02ff818268bd8fd85/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="914f5d3e3ace66080e59613708f06d129a222e25">
+        <dex dex="/Users/CharlesMa/Desktop/CharlesMaApp/GG/app/build/intermediates/pre-dexed/debug/classes_e36a0fe586caac52099f900eaaaca974d9ab9fb9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/CharlesMa/.android/build-cache/cd6805270366abb48dbdd3585409900134fdabe1/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="27.0.1"
         sha1="aa81bfe8c5cc88c2472ca936ae71f0c3dd1766df">
-        <dex dex="/Users/ext.charles.ma/Desktop/kotlinPro/123/GG/app/build/intermediates/pre-dexed/debug/classes_020b1db5cc5adc1b78fd47d6a5b9d118ab4586d9.jar" />
+        <dex dex="/Users/CharlesMa/Desktop/CharlesMaApp/GG/app/build/intermediates/pre-dexed/debug/classes_72ba55961fd5f52743bee36fd6b9019e5d2df1e9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/CharlesMa/.android/build-cache/26d74cccbedc14519d753b59b39210f66f3a134e/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="/Users/CharlesMa/Desktop/CharlesMaApp/GG/app/build/intermediates/pre-dexed/debug/classes_ff996ad0a36d4062e62f2a0118853e8b272586c3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/CharlesMa/.android/build-cache/c616fb0f9e07e30351969214b1a79fc6b9ce969e/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="/Users/CharlesMa/Desktop/CharlesMaApp/GG/app/build/intermediates/pre-dexed/debug/classes_1c4f8ab0cd822cabf410b873c28846951f040070.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/CharlesMa/.android/build-cache/47bf51407e2db4806b6e19a0c53a0ada69194b9c/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="/Users/CharlesMa/Desktop/CharlesMaApp/GG/app/build/intermediates/pre-dexed/debug/classes_0b2509f4953abb967fd1984eb5432846c6f5be43.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/CharlesMa/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.8.0/5ea7af56cc7c567ed9856d99efb30740e9b17ff/okio-1.8.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
+        <dex dex="/Users/CharlesMa/Desktop/CharlesMaApp/GG/app/build/intermediates/pre-dexed/debug/okio-1.8.0_89cf0a3ec3098021363fe28b764de9ce76766195.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/CharlesMa/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.3.0/2b802460eea20f8f2ad9c08c74e0f14718e88aa9/okhttp-3.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="2b802460eea20f8f2ad9c08c74e0f14718e88aa9">
+        <dex dex="/Users/CharlesMa/Desktop/CharlesMaApp/GG/app/build/intermediates/pre-dexed/debug/okhttp-3.3.0_1c2b91a18df30ff125190da6867c7b8cd802554b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/CharlesMa/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="/Users/CharlesMa/Desktop/CharlesMaApp/GG/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.0.2_2e6d4b75b1728bde8b04901c50b70e9f304811b8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/CharlesMa/.android/build-cache/66972c06f0e98e987c61c442916205ccb063332a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="/Users/CharlesMa/Desktop/CharlesMaApp/GG/app/build/intermediates/pre-dexed/debug/classes_25b7a6c87522c00a321fc9f5d054166880bdbef0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/CharlesMa/.android/build-cache/2a92401e52da6bc81fc4314844225726d3403b14/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="91c61d562f697ea47930557f10484d8dffa3af10">
+        <dex dex="/Users/CharlesMa/Desktop/CharlesMaApp/GG/app/build/intermediates/pre-dexed/debug/classes_5f8a6ee6fa2deccb8c9ef2fa96daf3dcd454b6d4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/CharlesMa/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.1.0/2de7cd8b95b7021b1d597f049bcb422055119f2c/retrofit-2.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
+        <dex dex="/Users/CharlesMa/Desktop/CharlesMaApp/GG/app/build/intermediates/pre-dexed/debug/retrofit-2.1.0_42262dd1bffb87b1842dc0c83782ed2455a907e7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/CharlesMa/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/adapter-rxjava/2.0.0/bf61256d9868ea053e24d77669c55c80db375c15/adapter-rxjava-2.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="bf61256d9868ea053e24d77669c55c80db375c15">
+        <dex dex="/Users/CharlesMa/Desktop/CharlesMaApp/GG/app/build/intermediates/pre-dexed/debug/adapter-rxjava-2.0.0_d4cd6a3c7f7e103f5b069e1b4b2a295f0ed809e7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/CharlesMa/.android/build-cache/cfe4511fb9661300e530c7c3f62b570d39cfef19/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="/Users/CharlesMa/Desktop/CharlesMaApp/GG/app/build/intermediates/pre-dexed/debug/classes_c371a3c2f4114fac17b4c43c64ce17de9d786056.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/CharlesMa/.android/build-cache/8af44dc9183ce4cc84e072c02213128d231d92c3/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="/Users/CharlesMa/Desktop/CharlesMaApp/GG/app/build/intermediates/pre-dexed/debug/classes_c47f18e6d9d7fd5c6e4312f757c5fe0980c8c7d0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/CharlesMa/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.1.0/aa557d71ead91cbf26e0c316a0f593d168303309/converter-gson-2.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="aa557d71ead91cbf26e0c316a0f593d168303309">
+        <dex dex="/Users/CharlesMa/Desktop/CharlesMaApp/GG/app/build/intermediates/pre-dexed/debug/converter-gson-2.1.0_d67437e599643e544c4b17fea984aef7bd17d3f8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/CharlesMa/.android/build-cache/87dad3dc8307e71975475ce78024928e43dbd03a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="4e025b1d2c6c837b248a5a68a112276b9b5641ce">
+        <dex dex="/Users/CharlesMa/Desktop/CharlesMaApp/GG/app/build/intermediates/pre-dexed/debug/classes_1c87d8ae413cc2df370fff0b0d6fffb42effb9a5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/CharlesMa/.android/build-cache/70a0eaadb78b3ea1721bfc8e3b53a2d2c5df14aa/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/CharlesMa/Desktop/CharlesMaApp/GG/app/build/intermediates/pre-dexed/debug/classes_afc22f8f274b48400fe4a0f981693409f42a21ed.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/CharlesMa/.android/build-cache/842946b59c2ac507b89567b448fe21cafc79b4c4/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="/Users/CharlesMa/Desktop/CharlesMaApp/GG/app/build/intermediates/pre-dexed/debug/classes_de50678f1300a10bfa2b85d6c4893a0e96d83d3c.jar" />
     </item>
 
 </items>
