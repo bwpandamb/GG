@@ -103,7 +103,7 @@ public class RecycleListActivity extends AppCompatActivity {
                 "没有简介", DiffViewPagerActivity.class));
         mDataList.add(new ItemContextBean("软键盘和按键跟随",
                 "没有简介", null));
-        mDataList.add(new ItemContextBean("brvah的recyclyView的使用",
+        mDataList.add(new ItemContextBean("仿饿了么数量控件",
                 "没有简介", BravhActivity.class));
         mDataList.add(new ItemContextBean("listview使用",
                 "没有简介", ListViewActivity.class));
